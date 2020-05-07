@@ -1,0 +1,27 @@
+
+
+#restaurant-container{
+    border: 1px solid gray;
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.restaurant-card{
+    border: 1px solid gray;
+    margin: 1em;
+    width: 20vw;
+    text-align: center;
+}
+
+.search-container{
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-container input, .search-container button {
+    height: 2em;
+    margin: 1em;
